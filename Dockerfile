@@ -7,7 +7,7 @@ RUN apk add --no-cache --update murmur shadow \
 
 ADD murmur.ini /config/murmur.ini
 
-VOLUME ["/data", "/config"]
+VOLUME ["/config"]
 
 
 EXPOSE 64738/udp
