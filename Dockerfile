@@ -9,7 +9,7 @@ ADD murmur.ini /config/murmur.ini
 
 VOLUME ["/config"]
 
-
+EXPOSE 64738/tcp
 EXPOSE 64738/udp
 
 USER murmur
